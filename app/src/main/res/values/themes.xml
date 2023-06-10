@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AssuranceMaladieApplication" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#5A86AD</item>
+        <item name="colorPrimaryDark">#5B7C99</item>
+        <item name="colorAccent">#FFE5AD</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

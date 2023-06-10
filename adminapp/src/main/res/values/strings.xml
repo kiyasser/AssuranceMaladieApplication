@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AdminApp</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="email">Email</string>
+    <string name="admin">Admin</string>
+    <string name="acceuil">Acceuil</string>
+    <string name="name">Name</string>
+    <string name="nom">Nom</string>
+    <string name="emil_email_com">emil@email.com</string>
+    <string name="mansor_gmail_com">mansor@gmail.com</string>
+    <string name="liste_des_assur_s">Liste des assurés</string>
+</resources>

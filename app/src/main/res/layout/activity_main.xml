@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profile1"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admin"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FF018786"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/designelabel"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/admin"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/designelabel"
+        android:ems="10"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/mot_de_passe"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp" />
+
+    <Button
+        android:id="@+id/connecterbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/se_connecter"
+        android:textStyle="bold"
+        android:background="@drawable/designe_btn"
+        android:textColor="@color/white" />
+
+</LinearLayout>

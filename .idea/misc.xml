@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="adminapp/src/main/res/layout/activity_acceuil2.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/drawable/admin.xml" value="0.115" />
+        <entry key="app/src/main/res/drawable/password.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity1_main.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_acceuil2.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_analyse7.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_list4.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_login2.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.13541666666666666" />
+        <entry key="app/src/main/res/layout/activity_optique10.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_radiographie9.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_reclamation.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_vignette8.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/item_view.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/listtoolbar.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/profiltoolbar.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.17552083333333332" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

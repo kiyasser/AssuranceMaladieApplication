@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1031152104820",
+    "project_id": "adminassurancemaladie",
+    "storage_bucket": "adminassurancemaladie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031152104820:android:3e84f43f5ecb64913a6821",
+        "android_client_info": {
+          "package_name": "dz.bechar.univtahrimohamed.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031152104820-441d9pij4tjm0oqtauq5uokdd36jh2j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyc7mMN-fXfFN0s77TYFqLdh4c2WFFgJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031152104820-441d9pij4tjm0oqtauq5uokdd36jh2j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

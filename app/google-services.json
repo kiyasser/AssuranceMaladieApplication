@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "842211751982",
+    "project_id": "assurance-10077",
+    "storage_bucket": "assurance-10077.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842211751982:android:b17174e67c915554d707bf",
+        "android_client_info": {
+          "package_name": "dz.bechar.univtahrimohamed.assurancemaladieapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842211751982-uigfu6h17cim25oq0v1scufr3nvbt11i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzuvhDfRxp7eD1xgdId3I7Q1k8Y8dx-dI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842211751982-uigfu6h17cim25oq0v1scufr3nvbt11i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

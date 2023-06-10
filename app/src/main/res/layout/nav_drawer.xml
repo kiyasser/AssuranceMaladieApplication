@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="16dp"
+        android:background="@drawable/header_bkg"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/user2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon assurance"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/robotoblack"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/acceuil"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue0"
+            android:text="Acceuil"
+            android:textSize="20sp"
+            android:fontFamily="@font/robotoblack"
+            android:drawableLeft="@drawable/homesmilefill"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profil"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue0"
+            android:text="Mon profile"
+            android:fontFamily="@font/robotoblack"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/usersmile"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/remboursement"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue0"
+            android:text="Remboursement"
+            android:fontFamily="@font/robotoblack"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/refund2line"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/historique"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue0"
+            android:text="Historique"
+            android:fontFamily="@font/robotoblack"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/archivefill"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reclamation"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue0"
+            android:text="Réclamation"
+            android:fontFamily="@font/robotoblack"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/mailsendfill"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/telecharge"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue0"
+            android:text="Télécharger"
+            android:fontFamily="@font/robotoblack"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/download2fill"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notification"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue0"
+            android:text="Notification"
+            android:fontFamily="@font/robotoblack"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/notification3fill"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/blue0"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deconnect"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue0"
+            android:text="Se déconnecter"
+            android:fontFamily="@font/robotoblack"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/logoutcircleline"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

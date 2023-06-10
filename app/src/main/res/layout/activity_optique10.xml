@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".OptiqueActivity10">
+
+    <include
+        layout="@layout/optiqtoolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demande remboursement"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/blue0"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/robotoblack"/>
+
+    <EditText
+        android:id="@+id/datesoin10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/date"
+        android:ems="10"
+        android:hint="Date de soin"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/grey0"
+        android:layout_marginTop="5dp"
+
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"  />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ordonancebtn10"
+        android:drawableLeft="@drawable/download2fill"
+        android:layout_marginTop="10dp"
+        android:text="Ordonnance"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ordonanceimage10"
+        android:adjustViewBounds="true"
+        android:background="@drawable/blue_border2"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feuilebtn10"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/download2fill"
+        android:text="Feille de soin"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/feuileimage10"
+        android:adjustViewBounds="true"
+        android:background="@drawable/blue_border2"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/validerbtn10"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/designe_btn"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:text="Valider"/>
+        <Button
+            android:id="@+id/annulerbtn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Annuler"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

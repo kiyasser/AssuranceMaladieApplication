@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Assurance Maladie</string>
+    <string name="assurancemaldielabel">Assurance Maladie</string>
+    <string name="bienvenuelabel">Bienvenue sur l\'application de l\'assurance maladie de  Béchar</string>
+    <string name="connexionbutton">Connexion</string>
+    <string name="sincrirebutton">S\'incrire</string>
+    <string name="nomdelutilisateurlabel">Nom de l\'utilisateur</string>
+    <string name="motdepasselabel">Mot de passe</string>
+    <string name="seconnecterlabel">Se connecter</string>
+    <string name="mdpsoublielabel">Mot de passe oublié?</string>
+    <string name="sincrirelabel">Vous n\'avez pas de compte ? s\'inscrire</string>
+    <string name="inscriptionlabel">Inscription</string>
+    <string name="nomlabel">Nom</string>
+    <string name="numseclabel">Numéro de sécurité sociale</string>
+    <string name="prenomlabel">Prénom</string>
+    <string name="sexelabel">Sexe :</string>
+    <string name="hommelabel">Homme</string>
+    <string name="femmelabel">Femme</string>
+    <string name="datedenaissancelabel">Date de naissance</string>
+    <string name="emaillabel">Email</string>
+    <string name="phonelabel">Téléphone</string>
+    <string name="addresslabel">Addresse</string>
+    <string name="monassurance">Mon assurance</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="acceuil">Acceuil</string>
+    <string name="mon_profile">Mon profile</string>
+    <string name="parametre">Paramètre</string>
+    <string name="propos">À propos</string>
+    <string name="se_d_connecter">Se déconnecter</string>
+    <string name="etatsocialelabel">Etat sociale</string>
+    <string name="acceuill">ACCEUIL</string>
+
+    <string name="se_connecter">Se connecter</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="email">Email</string>
+    <string name="admin">Admin</string>
+    <string name="name">Name</string>
+    <string name="nom">Nom</string>
+    <string name="emil_email_com">emil@email.com</string>
+    <string name="mansor_gmail_com">mansor@gmail.com</string>
+    <string name="liste_des_assur_s">Liste des assurés</string>
+
+
+</resources>

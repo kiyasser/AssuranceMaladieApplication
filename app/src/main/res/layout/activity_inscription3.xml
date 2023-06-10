@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f2"
+    android:orientation="vertical"
+    tools:context=".InscriptionActivity3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/robotoblack"
+        android:gravity="center"
+        android:text="@string/inscriptionlabel"
+        android:textColor="@color/blue0"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/nom3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/designelabel"
+        android:drawableLeft="@drawable/user"
+        android:ems="10"
+        android:hint="@string/nomlabel"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/grey0" />
+
+    <EditText
+        android:id="@+id/prenom3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/designelabel"
+        android:drawableLeft="@drawable/user"
+        android:ems="10"
+        android:hint="@string/prenomlabel"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/grey0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sexe3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoblack"
+            android:text="@string/sexelabel"
+            android:textColor="@color/blue0"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/groupsexe3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/homme3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/robotoblack"
+                android:text="Homme"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/femme3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoblack"
+                android:text="Femme"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/datenaiss3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/designelabel"
+        android:drawableLeft="@drawable/date"
+        android:ems="10"
+        android:hint="@string/datedenaissancelabel"
+        android:paddingLeft="15dp"
+
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"  />
+    <!-- code for single touch EDITTEXT (DATE PICKER ENABLES WHEN CLICK) -->
+
+
+    <EditText
+        android:id="@+id/email3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/designelabel"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:hint="@string/emaillabel"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/grey0" />
+
+    <EditText
+        android:id="@+id/phone3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/designelabel"
+        android:drawableLeft="@drawable/phone"
+        android:ems="10"
+        android:hint="@string/phonelabel"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/grey0" />
+
+    <EditText
+        android:id="@+id/address3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/designelabel"
+        android:drawableLeft="@drawable/userlocation"
+        android:ems="10"
+        android:hint="@string/addresslabel"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/grey0" />
+
+
+
+    <EditText
+        android:id="@+id/etatsociale3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/designelabel"
+        android:drawableLeft="@drawable/usersmile"
+        android:ems="10"
+        android:hint="@string/etatsocialelabel"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/grey0" />
+
+    <EditText
+        android:id="@+id/motdepasse3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/designelabel"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="@string/motdepasselabel"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/grey0" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+        android:id="@+id/sincrirebtn3"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:background="@drawable/designe_btn"
+        android:fontFamily="@font/robotoblack"
+        android:text="@string/sincrirebutton"
+        android:onClick="ToActivity5"
+        android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/annulerbtn3"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="60dp"
+            android:text="Annuler"/>
+    </LinearLayout>
+
+</LinearLayout>
